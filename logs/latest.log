@@ -1,0 +1,529 @@
+[20:21:15] [main/INFO]: Loading Minecraft 26.2-snapshot-5 with Fabric Loader 0.19.2
+[20:21:15] [ForkJoinPool-1-worker-11/WARN]: Mod aeonis uses the version 26.2-snap5_4.9 which isn't compatible with Loader's extended semantic version format (Invalid prerelease string 'snap5_4.9'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[20:21:15] [main/WARN]: Warnings were found!
+ - Mod 'Item Descriptions' (item_descriptions) 2.7.3+26.2-snapshot-1 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+[20:21:15] [main/INFO]: Loading 101 mods:
+	- aeonis 26.2-snap5_4.9
+	- almanac 1.6.2
+	   \-- cloth-config 26.1.154
+	        \-- cloth-basic-math 0.6.1
+	- c2me 0.3.7+alpha.0.68+26.2-snapshot-5
+	   |-- c2me-base 0.3.7+alpha.0.68+26.2-snapshot-5
+	   |-- c2me-client-uncapvd 0.3.7+alpha.0.68+26.2-snapshot-5
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.7+alpha.0.68+26.2-snapshot-5
+	   |-- c2me-fixes-general-threading-issues 0.3.7+alpha.0.68+26.2-snapshot-5
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.7+alpha.0.68+26.2-snapshot-5
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.7+alpha.0.68+26.2-snapshot-5
+	   |-- c2me-notickvd 0.3.7+alpha.0.68+26.2-snapshot-5
+	   |-- c2me-opts-allocs 0.3.7+alpha.0.68+26.2-snapshot-5
+	   |-- c2me-opts-chunkio 0.3.7+alpha.0.68+26.2-snapshot-5
+	   |-- c2me-opts-math 0.3.7+alpha.0.68+26.2-snapshot-5
+	   |-- c2me-opts-natives-math 0.3.7+alpha.0.68+26.2-snapshot-5
+	   |-- c2me-opts-scheduling 0.3.7+alpha.0.68+26.2-snapshot-5
+	   |-- c2me-opts-worldgen-general 0.3.7+alpha.0.68+26.2-snapshot-5
+	   |-- c2me-opts-worldgen-vanilla 0.3.7+alpha.0.68+26.2-snapshot-5
+	   |-- c2me-rewrites-chunk-serializer 0.3.7+alpha.0.68+26.2-snapshot-5
+	   |-- c2me-rewrites-chunk-system 0.3.7+alpha.0.68+26.2-snapshot-5
+	   |-- c2me-rewrites-chunkio 0.3.7+alpha.0.68+26.2-snapshot-5
+	   |-- c2me-server-utils 0.3.7+alpha.0.68+26.2-snapshot-5
+	   |-- c2me-threading-lighting 0.3.7+alpha.0.68+26.2-snapshot-5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.12
+	   |-- mixinsquared 0.3.7-beta.1
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- fabric-api 0.147.1+26.2
+	   |-- fabric-api-base 2.0.3+ece06323f9
+	   |-- fabric-api-lookup-api-v1 2.0.14+11e1c9a3f9
+	   |-- fabric-biome-api-v1 18.0.4+35c80edcf9
+	   |-- fabric-block-api-v1 3.0.2+ec56b601f9
+	   |-- fabric-block-getter-api-v2 2.0.6+ec56b601f9
+	   |-- fabric-command-api-v2 3.0.7+06488ac1f9
+	   |-- fabric-content-registries-v0 11.0.17+7ca090eaf9
+	   |-- fabric-convention-tags-v2 4.5.0+5cad15adf9
+	   |-- fabric-crash-report-info-v1 1.0.4+086d547af9
+	   |-- fabric-creative-tab-api-v1 5.0.11+d871b99ef9
+	   |-- fabric-data-attachment-api-v1 2.2.8+06488ac1f9
+	   |-- fabric-data-generation-api-v1 25.1.2+11e1c9a3f9
+	   |-- fabric-debug-api-v1 1.0.1+c792624df9
+	   |-- fabric-dimensions-v1 5.1.6+9cbf5da5f9
+	   |-- fabric-entity-events-v1 5.0.4+06488ac1f9
+	   |-- fabric-events-interaction-v0 5.1.12+06488ac1f9
+	   |-- fabric-game-rule-api-v1 4.0.6+11e1c9a3f9
+	   |-- fabric-item-api-v1 14.1.3+0ecb053ff9
+	   |-- fabric-key-mapping-api-v1 2.0.4+e2bdee78f9
+	   |-- fabric-lifecycle-events-v1 4.1.0+9d6daa97f9
+	   |-- fabric-loot-api-v3 3.0.14+06488ac1f9
+	   |-- fabric-menu-api-v1 2.0.13+086d547af9
+	   |-- fabric-message-api-v1 7.0.6+086d547af9
+	   |-- fabric-networking-api-v1 6.3.1+086d547af9
+	   |-- fabric-object-builder-api-v1 24.0.0+11e1c9a3f9
+	   |-- fabric-particles-v1 5.0.15+b61fef43f9
+	   |-- fabric-recipe-api-v1 9.0.16+11e1c9a3f9
+	   |-- fabric-registry-sync-v0 7.0.13+b61fef43f9
+	   |-- fabric-rendering-fluids-v1 6.0.3+06488ac1f9
+	   |-- fabric-rendering-v1 25.0.0+11e1c9a3f9
+	   |-- fabric-resource-conditions-api-v1 6.0.6+06488ac1f9
+	   |-- fabric-resource-loader-v0 3.3.17+4fc5413ff9
+	   |-- fabric-resource-loader-v1 2.0.10+11e1c9a3f9
+	   |-- fabric-screen-api-v1 5.0.2+086d547af9
+	   |-- fabric-serialization-api-v1 2.0.3+11a26f31f9
+	   |-- fabric-sound-api-v1 2.0.4+11a26f31f9
+	   |-- fabric-tag-api-v1 2.0.10+11a26f31f9
+	   |-- fabric-transfer-api-v1 8.0.8+39b5a392f9
+	   \-- fabric-transitive-access-wideners-v1 8.0.13+06488ac1f9
+	- fabric-language-kotlin 1.13.11+kotlin.2.3.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.3.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.3.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.3.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.3.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.32.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.11.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.11.0
+	- fabricloader 0.19.2
+	   \-- mixinextras 0.5.4
+	- item_descriptions 2.7.3+26.2-snapshot-1
+	   \-- folk_sisby_kaleido-config 0.3.3+1.3.2
+	- java 25
+	- ksyxis 1.4.3
+	- letmedespawn 1.6.2
+	- minecraft 26.2-alpha.5
+	- rdsc 1.0.0-beta.1
+	- sulfur_springs_by_xs 1.1
+	- sulkan 0.1.7
+	- voicechat 2.6.16+26.2-snapshot-5
+	   |-- fabric-api-base 2.0.3+ece06323f9
+	   |-- fabric-command-api-v2 3.0.7+06488ac1f9
+	   |-- fabric-key-mapping-api-v1 2.0.4+e2bdee78f9
+	   |-- fabric-lifecycle-events-v1 4.1.0+9d6daa97f9
+	   |-- fabric-networking-api-v1 6.3.1+086d547af9
+	   |-- fabric-rendering-v1 25.0.0+11e1c9a3f9
+	   |-- fabric-resource-loader-v1 2.0.10+11e1c9a3f9
+	   \-- voicechat_api 2.6.13
+	- wi_zoom 1.7-MC26.2-snapshot-5
+	- zfastnoise 1.0.31+26.2-snapshot-5
+	   |-- com_electronwill_night-config_core 3.8.3
+	   \-- com_electronwill_night-config_toml 3.8.3
+[20:21:15] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/quantumcreeper/.var/app/org.polymc.PolyMC/data/PolyMC/libraries/net/fabricmc/sponge-mixin/0.17.2+mixin.0.8.7/sponge-mixin-0.17.2+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[20:21:15] [main/INFO]: Compatibility level set to JAVA_21
+[20:21:15] [main/INFO]: Compatibility level set to JAVA_25
+[20:21:15] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[20:21:15] [main/INFO]: Global Executor Parallelism: 5 configured, 5 evaluated, 5 default evaluated
+[20:21:15] [main/INFO]: Initializing com.ishland.c2me.client.uncapvd.mixin
+[20:21:15] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[20:21:15] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[20:21:15] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[20:21:15] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[20:21:15] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[20:21:15] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[20:21:15] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[20:21:15] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[20:21:15] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[20:21:15] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[20:21:15] [main/INFO]: Detected maximum supported ISA target: AVX2
+[20:21:15] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[20:21:15] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[20:21:15] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[20:21:15] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[20:21:15] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[20:21:15] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[20:21:15] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[20:21:15] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[20:21:15] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[20:21:16] [main/WARN]: Error loading class: net/vulkanmod/config/option/Options (java.lang.ClassNotFoundException: net/vulkanmod/config/option/Options)
+[20:21:16] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[20:21:16] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+[20:21:17] [Datafixer Bootstrap #0/INFO]: 294 Datafixer optimizations took 138 milliseconds
+[20:21:19] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[20:21:19] [Render thread/INFO]: Setting user: ETPV
+[20:21:19] [Render thread/INFO]: §a[PropHunt] §7Manager initialized and ready!
+[20:21:19] [Render thread/INFO]: §a[PropHunt] §7Commands and event handlers registered!
+[20:21:19] [Render thread/INFO]: Prop Hunt minigame registered
+[20:21:19] [Render thread/INFO]: Companion bot system registered
+[20:21:19] [Render thread/INFO]: §a[Manhunt] §7Manager initialized and ready!
+[20:21:19] [Render thread/INFO]: §a[Manhunt] §7Commands registered!
+[20:21:19] [Render thread/INFO]: Manhunt minigame registered
+[20:21:19] [Render thread/INFO]: LLM networking registered
+[20:21:19] [Render thread/INFO]: Aeonis Plus core initialized
+[20:21:19] [Render thread/INFO]: Almanac Fabric config reloaded, cache cleared
+[20:21:19] [Render thread/INFO]: Almanac Fabric config initialized
+[20:21:19] [Render thread/INFO]: Almanac initialized
+[20:21:19] [Render thread/INFO]: Ksyxis: Loading... (platform: fabric, version: 1.4.3, manual: false)
+[20:21:19] [Render thread/INFO]: Ksyxis: Ready to remove unneeded chunks. (mixinVersion: 0.8.7, time: 0 ms)
+[20:21:19] [Render thread/INFO]: Hello Fabric world!
+[20:21:19] [Render thread/INFO]: [voicechat] Compatibility version 20
+[20:21:19] [Render thread/INFO]: [voicechat] Loading plugins
+[20:21:19] [Render thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[20:21:19] [Render thread/INFO]: [voicechat] Initializing plugins
+[20:21:19] [Render thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[20:21:19] [Render thread/INFO]: [STDOUT]: Starting WI Zoom v1.7-MC26.2-snapshot-5
+[20:21:19] [Render thread/INFO]: Hello Fabric world!
+[20:21:19] [Render thread/INFO]: [voicechat] Initializing Opus
+[20:21:19] [Render thread/INFO]: [voicechat] Successfully initialized Opus
+[20:21:19] [Render thread/INFO]: [voicechat] Initializing RNNoise
+[20:21:19] [Render thread/INFO]: [voicechat] Successfully initialized RNNoise
+[20:21:19] [Render thread/INFO]: [voicechat] Initializing Speex
+[20:21:19] [Render thread/INFO]: [voicechat] Successfully initialized Speex
+[20:21:19] [Render thread/INFO]: [voicechat] Initializing LAME
+[20:21:19] [Render thread/INFO]: [voicechat] Successfully initialized LAME
+[20:21:19] [Render thread/INFO]: [voicechat] Using Cloth Config GUI
+[20:21:19] [Download-2/ERROR]: Failed to fetch user properties
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at knot//com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:59)
+	at knot//com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:150)
+	at knot//net.minecraft.client.Minecraft.lambda$new$1(Minecraft.java:424)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:103)
+	at knot//com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56)
+	at knot//com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:121)
+	... 5 more
+[20:21:19] [Render thread/INFO]: Backend library: LWJGL version 3.4.1-snapshot
+[20:21:19] [Render thread/INFO]: Using graphics backend Vulkan, using drivers: 1.4.335 Intel open-source Mesa driver Mesa 26.0.5 (git-e4bd78e80a)
+[20:21:19] [Render thread/INFO]: Using graphics device: Intel(R) Graphics (ARL) (INTEL)
+[20:21:19] [Render thread/INFO]: Using graphics device extensions: VK_KHR_synchronization2 (D), VK_KHR_swapchain (D), VK_KHR_surface (I), VK_KHR_push_descriptor (D), VK_KHR_xcb_surface (I), VK_EXT_debug_utils (I), VK_KHR_dynamic_rendering (D)
+[20:21:20] [Render thread/INFO]: Reloading ResourceManager: vanilla, aeonis, almanac, c2me, cloth-config, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-getter-api-v2, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-creative-tab-api-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-debug-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-key-mapping-api-v1, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v3, fabric-menu-api-v1, fabric-message-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-resource-loader-v1, fabric-screen-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, item_descriptions, ksyxis, letmedespawn, rdsc, sulkan, voicechat, wi_zoom, zfastnoise
+[20:21:20] [Render thread/INFO]: Sulkan confirmed Vulkan backend: Vulkan
+[20:21:20] [Worker-Main-9/INFO]: Found unifont_pua-17.0.01.hex, loading
+[20:21:20] [Worker-Main-7/INFO]: Found unifont_all_no_pua-17.0.01.hex, loading
+[20:21:20] [Worker-Main-3/INFO]: Found unifont_jp_patch-17.0.01.hex, loading
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:permanent_flame}'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=north,type=single]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=north,type=left]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=north,type=right]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=north,type=triple_left]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=north,type=triple_middle]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=north,type=triple_right]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=south,type=single]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=south,type=left]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=south,type=right]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=south,type=triple_left]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=south,type=triple_middle]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=south,type=triple_right]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=west,type=single]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=west,type=left]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=west,type=right]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=west,type=triple_left]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=west,type=triple_middle]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=west,type=triple_right]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=east,type=single]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=east,type=left]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=east,type=right]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=east,type=triple_left]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=east,type=triple_middle]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=east,type=triple_right]'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:tungsten_ore}'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:deepslate_tungsten_ore}'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:tungsten_block}'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:andesite_stone}'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:leaf_stand}'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:limestone_crystal}'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:sandstone_polished}'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:travertine}'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:trumped_concreate}'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:trumped_wall}'
+[20:21:20] [Worker-Main-1/WARN]: Missing model for variant: 'Block{aeonis:volcanic_stone}'
+[20:21:21] [Render thread/INFO]: OpenAL initialized on device Built-in Audio Analog Stereo
+[20:21:21] [Render thread/INFO]: Sound engine started
+[20:21:21] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[20:21:21] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[20:21:21] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[20:21:21] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20:21:21] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[20:21:21] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[20:21:21] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
+[20:21:21] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/celestials.png-atlas
+[20:21:21] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[20:21:21] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas
+[20:21:21] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[20:21:21] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[20:21:21] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/signs.png-atlas
+[20:21:21] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20:21:23] [Render thread/INFO]: Reloading ResourceManager: vanilla, aeonis, almanac, c2me, cloth-config, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-getter-api-v2, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-creative-tab-api-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-debug-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-key-mapping-api-v1, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v3, fabric-menu-api-v1, fabric-message-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-resource-loader-v1, fabric-screen-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, item_descriptions, ksyxis, letmedespawn, rdsc, sulkan, voicechat, wi_zoom, zfastnoise
+[20:21:23] [Worker-Main-15/INFO]: Found unifont_pua-17.0.01.hex, loading
+[20:21:23] [Worker-Main-5/INFO]: Found unifont_all_no_pua-17.0.01.hex, loading
+[20:21:23] [Worker-Main-4/INFO]: Found unifont_jp_patch-17.0.01.hex, loading
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:permanent_flame}'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=north,type=single]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=north,type=left]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=north,type=right]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=north,type=triple_left]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=north,type=triple_middle]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=north,type=triple_right]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=south,type=single]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=south,type=left]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=south,type=right]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=south,type=triple_left]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=south,type=triple_middle]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=south,type=triple_right]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=west,type=single]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=west,type=left]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=west,type=right]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=west,type=triple_left]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=west,type=triple_middle]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=west,type=triple_right]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=east,type=single]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=east,type=left]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=east,type=right]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=east,type=triple_left]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=east,type=triple_middle]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=east,type=triple_right]'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:tungsten_ore}'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:deepslate_tungsten_ore}'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:tungsten_block}'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:andesite_stone}'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:leaf_stand}'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:limestone_crystal}'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:sandstone_polished}'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:travertine}'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:trumped_concreate}'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:trumped_wall}'
+[20:21:23] [Worker-Main-4/WARN]: Missing model for variant: 'Block{aeonis:volcanic_stone}'
+[20:21:23] [Render thread/INFO]: OpenAL initialized on device Built-in Audio Analog Stereo
+[20:21:23] [Render thread/INFO]: Sound engine started
+[20:21:23] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[20:21:23] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[20:21:23] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[20:21:24] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20:21:24] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[20:21:24] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[20:21:24] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
+[20:21:24] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/celestials.png-atlas
+[20:21:24] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[20:21:24] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas
+[20:21:24] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[20:21:24] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[20:21:24] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/signs.png-atlas
+[20:21:24] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20:21:27] [Download-1/INFO]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[20:21:27] [Download-1/ERROR]: Failed to fetch Realms feature flags
+com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication error with message 'java.lang.RuntimeException: Failed to parse into SignedJWT: 0'
+	at knot//com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:528)
+	at knot//com.mojang.realmsclient.client.RealmsClient.fetchFeatureFlags(RealmsClient.java:187)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[20:21:27] [IO-Worker-1/INFO]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[20:21:27] [IO-Worker-1/ERROR]: Couldn't connect to realms
+com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication error with message 'java.lang.RuntimeException: Failed to parse into SignedJWT: 0'
+	at knot//com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:528)
+	at knot//com.mojang.realmsclient.client.RealmsClient.clientCompatible(RealmsClient.java:308)
+	at knot//com.mojang.realmsclient.RealmsAvailability.lambda$check$0(RealmsAvailability.java:48)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1789)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[20:21:29] [Render thread/INFO]: Ksyxis: No compatibility hacks were used.
+[20:21:29] [Worker-Main-4/ERROR]: Couldn't load tag aeonis:tungsten_tool_materials as it is missing following references: aeonis:tungsten_ingot (from aeonis)
+[20:21:29] [Worker-Main-12/INFO]: LLM commands registered
+[20:21:29] [Worker-Main-3/ERROR]: Couldn't parse data file 'aeonis:crimson_ingot_scraps_from_blasting' from 'aeonis:recipe/crimson_ingot_scraps_from_blasting.json': DataResult.Error['Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: aeonis:crimson_ingot_scraps; Second: Not a string: {"count":1,"id":"aeonis:crimson_ingot_scraps"}; Failed to parse either. First: Not a JSON object: "aeonis:raw_crimson"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "aeonis:raw_crimson"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: aeonis:raw_crimson']
+[20:21:29] [Worker-Main-3/ERROR]: Couldn't parse data file 'aeonis:crimson_ingot_scraps_from_smelting' from 'aeonis:recipe/crimson_ingot_scraps_from_smelting.json': DataResult.Error['Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: aeonis:crimson_ingot_scraps; Second: Not a string: {"count":1,"id":"aeonis:crimson_ingot_scraps"}; Failed to parse either. First: Not a JSON object: "aeonis:raw_crimson"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "aeonis:raw_crimson"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: aeonis:raw_crimson']
+[20:21:29] [Worker-Main-3/ERROR]: Couldn't parse data file 'aeonis:safe_chest' from 'aeonis:recipe/safe_chest.json': DataResult.Error['Map entry 'S' : Failed to parse either. First: No key fabric:type in MapLike[{"tag":"minecraft:wooden_slabs"}]; Second: Failed to parse either. First: Not a string: {"tag":"minecraft:wooden_slabs"}; Second: Failed to parse either. First: Not a json array: {"tag":"minecraft:wooden_slabs"}; Second: Not a string: {"tag":"minecraft:wooden_slabs"}']
+[20:21:29] [Worker-Main-10/ERROR]: Couldn't parse data file 'aeonis:crimson_discovery' from 'aeonis:advancement/crimson_discovery.json': DataResult.Error['Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "aeonis:raw_crimson"; Second: Failed to get element aeonis:raw_crimson missed input: {"got_raw_crimson":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":"aeonis:raw_crimson"}]}}}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: aeonis:ancard_crimson_ore; Second: Not a string: {"id":"aeonis:ancard_crimson_ore"}': Advancement[parent=Optional[aeonis:enter_ancard], display=Optional.empty, rewards=AdvancementRewards[experience=0, loot=[], recipes=[], function=Optional.empty], criteria={got_raw_crimson=Criterion[trigger=net.minecraft.advancements.triggers.InventoryChangeTrigger@44924779, triggerInstance=TriggerInstance[player=Optional.empty, slots=Slots[occupied=Ints[bounds=Bounds[min=Optional.empty, max=Optional.empty], boundsSqr=Bounds[min=Optional.empty, max=Optional.empty]], full=Ints[bounds=Bounds[min=Optional.empty, max=Optional.empty], boundsSqr=Bounds[min=Optional.empty, max=Optional.empty]], empty=Ints[bounds=Bounds[min=Optional.empty, max=Optional.empty], boundsSqr=Bounds[min=Optional.empty, max=Optional.empty]]], items=[ItemPredicate[items=Optional.empty, count=Ints[bounds=Bounds[min=Optional.empty, max=Optional.empty], boundsSqr=Bounds[min=Optional.empty, max=Optional.empty]], components=DataComponentMatchers[exact=[], partial={}]]]]]}, requirements=[[got_raw_crimson]], sendsTelemetryEvent=false, name=Optional.empty]]
+[20:21:29] [Worker-Main-10/ERROR]: Couldn't parse data file 'aeonis:eternal_night' from 'aeonis:advancement/eternal_night.json': DataResult.Error['Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: aeonis:dark_obsidian; Second: Not a string: {"id":"aeonis:dark_obsidian"}': Advancement[parent=Optional[aeonis:enter_ancard], display=Optional.empty, rewards=AdvancementRewards[experience=0, loot=[], recipes=[], function=Optional.empty], criteria={survive_in_ancard=Criterion[trigger=net.minecraft.advancements.triggers.PlayerTrigger@11c2f104, triggerInstance=TriggerInstance[player=Optional[net.minecraft.advancements.predicates.ContextAwarePredicate@6783464c]]]}, requirements=[[survive_in_ancard]], sendsTelemetryEvent=false, name=Optional.empty]]
+[20:21:29] [Worker-Main-10/ERROR]: Couldn't parse data file 'aeonis:root' from 'aeonis:advancement/root.json': DataResult.Error['Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: aeonis:ancard_lighter; Second: Not a string: {"id":"aeonis:ancard_lighter"}': Advancement[parent=Optional.empty, display=Optional.empty, rewards=AdvancementRewards[experience=0, loot=[], recipes=[], function=Optional.empty], criteria={in_ancard=Criterion[trigger=net.minecraft.advancements.triggers.ChangeDimensionTrigger@32056ed9, triggerInstance=TriggerInstance[player=Optional.empty, from=Optional.empty, to=Optional[ResourceKey[minecraft:dimension / aeonis:ancard]]]]}, requirements=[[in_ancard]], sendsTelemetryEvent=false, name=Optional.empty]]
+[20:21:29] [Worker-Main-10/ERROR]: Couldn't parse data file 'aeonis:sovereigns_fall' from 'aeonis:advancement/sovereigns_fall.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:entity_sub_predicate_type]: minecraft:type; Unknown registry key in ResourceKey[minecraft:root / minecraft:entity_sub_predicate_type]: minecraft:type missed input: {"type":"aeonis:ancard_sovereign"} missed input: {"killed_sovereign":{"trigger":"minecraft:player_killed_entity","conditions":{"entity":{"type":"aeonis:ancard_sovereign"}}}}; Failed to parse either. First: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: aeonis:ancard_sovereign_spawn_egg; Second: Not a string: {"id":"aeonis:ancard_sovereign_spawn_egg"}': Advancement[parent=Optional[aeonis:enter_ancard], display=Optional.empty, rewards=AdvancementRewards[experience=500, loot=[], recipes=[], function=Optional.empty], criteria={killed_sovereign=Criterion[trigger=net.minecraft.advancements.triggers.KilledTrigger@6f63d6ec, triggerInstance=TriggerInstance[player=Optional.empty, entity=Optional[net.minecraft.advancements.predicates.ContextAwarePredicate@79e7d0f], killingBlow=Optional.empty]]}, requirements=[[killed_sovereign]], sendsTelemetryEvent=false, name=Optional.empty]]
+[20:21:29] [Render thread/INFO]: Loaded 1585 recipes
+[20:21:29] [Render thread/ERROR]: Couldn't load advancements: [aeonis:taming_liternally_everything]
+[20:21:29] [Render thread/INFO]: Loaded 1687 advancements
+[20:21:29] [Render thread/INFO]: Applied 0 biome modifications to 0 of 67 new biomes in 731.4 μs
+[20:21:29] [Server thread/INFO]: Starting integrated minecraft server version 26.2 Snapshot 5
+[20:21:29] [Server thread/INFO]: Generating keypair
+[20:21:30] [Server thread/INFO]: Enforcing safe world random access
+[20:21:30] [Server thread/INFO]: Using TheSpeedyObjectFactory without Unsafe
+[20:21:30] [Server thread/INFO]: Ksyxis: Speeding up the world loading... Delete the mod, if it got stuck after this message. (net.minecraft.client.server.IntegratedServer prepareLevels)
+[20:21:30] [Server thread/INFO]: Loading 0 persistent chunks...
+[20:21:30] [Server thread/INFO]: Preparing spawn area: 16%
+[20:21:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20:21:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20:21:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20:21:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:21:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:21:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:21:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:21:30] [Server thread/INFO]: Loaded LLM config from /home/quantumcreeper/.var/app/org.polymc.PolyMC/data/PolyMC/instances/Absolutely Optimised 1.0/.minecraft/saves/New World/./aeonis/llm_config.json
+[20:21:30] [Server thread/INFO]: Loaded 0 scripts
+[20:21:30] [Server thread/INFO]: Loaded 0 custom commands
+[20:21:30] [Server thread/INFO]: Aeonis Script Manager initialized at /home/quantumcreeper/.var/app/org.polymc.PolyMC/data/PolyMC/instances/Absolutely Optimised 1.0/.minecraft/aeonis/scripts
+[20:21:30] [Server thread/INFO]: LLM config storage and script manager initialized
+[20:21:30] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 41030
+[20:21:30] [Server thread/INFO]: Loading 0 chunks for player spawn...
+[20:21:30] [Server thread/INFO]: Preparing spawn area: 16%
+[20:21:30] [Server thread/INFO]: Time elapsed: 669 ms
+[20:21:30] [Render thread/INFO]: Joined server with c2me:ext_render_distance_v1 support
+[20:21:31] [Server thread/INFO]: ETPV[local:E:254e3fe7] logged in with entity id 1 at (159.7626143951342, 71.0, 146.91567382772323)
+[20:21:31] [Server thread/INFO]: ETPV joined the game
+[20:21:31] [Render thread/INFO]: [voicechat] Sending secret request to the server
+[20:21:31] [Server thread/INFO]: [voicechat] Received secret request of ETPV (20)
+[20:21:31] [Server thread/INFO]: [voicechat] Sent secret to ETPV
+[20:21:31] [Render thread/INFO]: Joined server with c2me:ext_render_distance_v1 support
+[20:21:31] [Render thread/INFO]: [voicechat] Received secret
+[20:21:31] [Render thread/INFO]: [voicechat] Connecting to voice chat server: '127.0.0.1:41030'
+[20:21:31] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to authenticate voice chat connection
+[20:21:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 501ff8ee-edcd-3ce1-a0f7-81ef99c225d0
+[20:21:31] [VoiceChatConnectionThread/INFO]: [voicechat] Server acknowledged authentication
+[20:21:31] [Render thread/INFO]: [System] [CHAT] [Simple Voice Chat] Press V to set up
+[20:21:31] [Render thread/INFO]: Changing view distance to 16 (play stage)
+[20:21:31] [Server thread/INFO]: Changing view distance to 16, from 10
+[20:21:31] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[20:21:31] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[20:21:31] [Render thread/INFO]: Loaded 2 advancements
+[20:21:31] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[20:21:32] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[20:21:32] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[20:21:32] [VoiceChatAuthenticationThread/INFO]: [voicechat] Trying to validate voice chat connection
+[20:21:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 501ff8ee-edcd-3ce1-a0f7-81ef99c225d0
+[20:21:32] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[20:21:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ETPV (501ff8ee-edcd-3ce1-a0f7-81ef99c225d0) successfully connected to voice chat
+[20:21:32] [VoiceChatConnectionThread/INFO]: [voicechat] Server acknowledged connection check
+[20:21:32] [MicrophoneThread/INFO]: [voicechat] Using stereo workaround for OpenAL microphones
+[20:21:32] [MicrophoneThread/WARN]: [voicechat] Failed to open microphone '', falling back to default microphone
+[20:21:32] [MicrophoneThread/WARN]: [voicechat] Failed to use OpenAL microphone implementation
+de.maxhenkel.voicechat.voice.client.MicrophoneException: Failed to open microphone
+	at knot//de.maxhenkel.voicechat.voice.client.microphone.ALMicrophone.tryOpenMic(ALMicrophone.java:139)
+	at knot//de.maxhenkel.voicechat.voice.client.microphone.ALMicrophone.openMic(ALMicrophone.java:132)
+	at knot//de.maxhenkel.voicechat.voice.client.microphone.ALMicrophone.open(ALMicrophone.java:39)
+	at knot//de.maxhenkel.voicechat.voice.client.microphone.MicrophoneManager.createALMicrophone(MicrophoneManager.java:42)
+	at knot//de.maxhenkel.voicechat.voice.client.microphone.MicrophoneManager.createMicrophone(MicrophoneManager.java:23)
+	at knot//de.maxhenkel.voicechat.voice.client.MicThread.getMic(MicThread.java:149)
+	at knot//de.maxhenkel.voicechat.voice.client.MicThread.run(MicThread.java:70)
+[20:21:32] [MicrophoneThread/WARN]: [voicechat] Falling back to Java microphone implementation
+[20:21:32] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[20:21:32] [MicrophoneThread/WARN]: [voicechat] Failed to open microphone '', falling back to default microphone
+[20:21:32] [MicrophoneThread/ERROR]: [voicechat] Failed to start microphone thread
+de.maxhenkel.voicechat.voice.client.MicrophoneException: javax.sound.sampled.LineUnavailableException: line with format PCM_SIGNED 48000.0 Hz, 16 bit, mono, 2 bytes/frame, little-endian not supported.
+	at knot//de.maxhenkel.voicechat.voice.client.microphone.JavaxMicrophone.open(JavaxMicrophone.java:50)
+	at knot//de.maxhenkel.voicechat.voice.client.microphone.MicrophoneManager.createJavaMicrophone(MicrophoneManager.java:36)
+	at knot//de.maxhenkel.voicechat.voice.client.microphone.MicrophoneManager.createMicrophone(MicrophoneManager.java:27)
+	at knot//de.maxhenkel.voicechat.voice.client.MicThread.getMic(MicThread.java:149)
+	at knot//de.maxhenkel.voicechat.voice.client.MicThread.run(MicThread.java:70)
+Caused by: javax.sound.sampled.LineUnavailableException: line with format PCM_SIGNED 48000.0 Hz, 16 bit, mono, 2 bytes/frame, little-endian not supported.
+	at java.desktop/com.sun.media.sound.DirectAudioDevice$DirectDL.implOpen(DirectAudioDevice.java:480)
+	at java.desktop/com.sun.media.sound.AbstractDataLine.open(AbstractDataLine.java:115)
+	at java.desktop/com.sun.media.sound.AbstractDataLine.open(AbstractDataLine.java:142)
+	at knot//de.maxhenkel.voicechat.voice.client.microphone.JavaxMicrophone.open(JavaxMicrophone.java:48)
+	... 4 more
+[20:21:32] [MicrophoneThread/INFO]: [System] [CHAT] [Simple Voice Chat] Microphone unavailable
+[20:21:32] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[20:21:32] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[20:21:33] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[20:21:33] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
+[20:21:34] [Server thread/INFO]: Saving and pausing game...
+[20:21:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20:21:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20:21:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20:21:35] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 512 reached during a single frame. New capacity will be 1024.
+[20:21:39] [Render thread/INFO]: Changing view distance to 16 (play stage)
+[20:21:41] [Render thread/INFO]: Changing view distance to 16 (play stage)
+[20:21:43] [Render thread/INFO]: Changing view distance to 16 (play stage)
+[20:21:44] [Render thread/INFO]: Changing view distance to 16 (play stage)
+[20:21:55] [Render thread/INFO]: Changing view distance to 16 (play stage)
+[20:21:55] [Render thread/INFO]: Reloading ResourceManager: vanilla, aeonis, almanac, c2me, cloth-config, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-getter-api-v2, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-creative-tab-api-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-debug-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-key-mapping-api-v1, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v3, fabric-menu-api-v1, fabric-message-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-resource-loader-v1, fabric-screen-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, item_descriptions, ksyxis, letmedespawn, rdsc, sulkan, voicechat, wi_zoom, zfastnoise, file/§b§lVanilla Experience+§0.zip, white_icons, high_contrast
+[20:21:55] [Worker-Main-8/INFO]: Found unifont_all_no_pua-17.0.01.hex, loading
+[20:21:55] [Worker-Main-14/INFO]: Found unifont_pua-17.0.01.hex, loading
+[20:21:56] [Worker-Main-10/INFO]: Found unifont_jp_patch-17.0.01.hex, loading
+[20:21:56] [Worker-Main-14/WARN]: Missing block model: minecraft:builtin/entity
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:permanent_flame}'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=north,type=single]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=north,type=left]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=north,type=right]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=north,type=triple_left]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=north,type=triple_middle]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=north,type=triple_right]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=south,type=single]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=south,type=left]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=south,type=right]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=south,type=triple_left]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=south,type=triple_middle]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=south,type=triple_right]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=west,type=single]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=west,type=left]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=west,type=right]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=west,type=triple_left]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=west,type=triple_middle]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=west,type=triple_right]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=east,type=single]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=east,type=left]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=east,type=right]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=east,type=triple_left]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=east,type=triple_middle]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:safe_chest}[facing=east,type=triple_right]'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:tungsten_ore}'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:deepslate_tungsten_ore}'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:tungsten_block}'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:andesite_stone}'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:leaf_stand}'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:limestone_crystal}'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:sandstone_polished}'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:travertine}'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:trumped_concreate}'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:trumped_wall}'
+[20:21:56] [Worker-Main-10/WARN]: Missing model for variant: 'Block{aeonis:volcanic_stone}'
+[20:21:56] [Render thread/INFO]: OpenAL initialized on device Built-in Audio Analog Stereo
+[20:21:56] [Render thread/INFO]: Sound engine started
+[20:21:56] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[20:21:56] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[20:21:56] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[20:21:56] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20:21:56] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[20:21:56] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[20:21:56] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
+[20:21:56] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas
+[20:21:56] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[20:21:56] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas
+[20:21:56] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[20:21:56] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[20:21:56] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/signs.png-atlas
+[20:21:56] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20:21:59] [Render thread/INFO]: Changing view distance to 16 (play stage)
+[20:22:04] [Server thread/INFO]: Saving and pausing game...
+[20:22:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20:22:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20:22:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20:22:09] [Render thread/INFO]: [System] [CHAT] Saved screenshot as 2026-05-02_20.22.09.png
+[20:22:25] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[20:22:30] [Server thread/INFO]: Saving and pausing game...
+[20:22:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20:22:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20:22:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20:22:33] [Render thread/INFO]: [voicechat] Clearing audio channels
+[20:22:33] [Render thread/INFO]: [voicechat] Stopping microphone thread
+[20:22:33] [Render thread/INFO]: [voicechat] Disconnecting voicechat
+[20:22:33] [Server thread/INFO]: Saved LLM config to /home/quantumcreeper/.var/app/org.polymc.PolyMC/data/PolyMC/instances/Absolutely Optimised 1.0/.minecraft/saves/New World/./aeonis/llm_config.json
+[20:22:33] [Server thread/INFO]: LLM shutdown complete
+[20:22:33] [Server thread/INFO]: Stopping server
+[20:22:33] [Server thread/INFO]: Saving players
+[20:22:33] [Server thread/INFO]: ETPV lost connection: Disconnected
+[20:22:33] [Server thread/INFO]: ETPV left the game
+[20:22:33] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[20:22:33] [Server thread/INFO]: Saving worlds
+[20:22:33] [Server thread/INFO]: ServerLevel[New World]/minecraft:overworld: waiting for 3249 chunks to unload
+[20:22:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20:22:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20:22:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20:22:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:22:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:22:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:22:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:22:34] [C2ME Storage #3/INFO]: Storage thread Thread[#120,C2ME Storage #3,8,main] stopped
+[20:22:34] [C2ME Storage #2/INFO]: Storage thread Thread[#119,C2ME Storage #2,8,main] stopped
+[20:22:34] [C2ME Storage #1/INFO]: Storage thread Thread[#118,C2ME Storage #1,8,main] stopped
+[20:22:34] [C2ME Storage #6/INFO]: Storage thread Thread[#123,C2ME Storage #6,8,main] stopped
+[20:22:34] [C2ME Storage #5/INFO]: Storage thread Thread[#122,C2ME Storage #5,8,main] stopped
+[20:22:34] [C2ME Storage #8/INFO]: Storage thread Thread[#125,C2ME Storage #8,8,main] stopped
+[20:22:34] [C2ME Storage #4/INFO]: Storage thread Thread[#121,C2ME Storage #4,8,main] stopped
+[20:22:34] [C2ME Storage #9/INFO]: Storage thread Thread[#126,C2ME Storage #9,8,main] stopped
+[20:22:34] [C2ME Storage #7/INFO]: Storage thread Thread[#124,C2ME Storage #7,8,main] stopped
+[20:22:35] [Render thread/INFO]: Stopping!

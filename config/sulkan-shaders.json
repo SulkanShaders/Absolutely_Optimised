@@ -1,0 +1,11 @@
+{
+  "enabled": false,
+  "selectedPackId": "__builtin__",
+  "shadowQualityPreset": "normal",
+  "aoQualityPreset": "off",
+  "waterQualityPreset": "normal",
+  "cloudQualityPreset": "off",
+  "atmosphericQualityPreset": "normal",
+  "bloomEnabled": true,
+  "antiAliasingMode": "off"
+}
